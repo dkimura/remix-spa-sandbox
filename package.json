@@ -33,7 +33,7 @@
     "vite-tsconfig-paths": "4.2.1"
   },
   "engines": {
-    "node": "21.7.1"
+    "node": "20.11.1"
   },
   "packageManager": "pnpm@8.6.7"
 }
