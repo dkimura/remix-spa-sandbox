@@ -6,7 +6,7 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
-    "lint": "biome ci .",
+    "lint": "biome check --no-errors-on-unmatched --files-ignore-unknown=true .",
     "preview": "vite preview",
     "typecheck": "tsc"
   },
