@@ -1,3 +1,5 @@
+import { ColorSchemeScript, MantineProvider } from '@mantine/core'
+import '@mantine/core/styles.css'
 import {
   Links,
   Meta,
@@ -14,6 +16,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <ColorSchemeScript />
       </head>
       <body>
         {children}
@@ -25,9 +28,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />
+  return (
+    <MantineProvider>
+      <Outlet />
+    </MantineProvider>
+  )
 }
 
 export function HydrateFallback() {
-  return <p>Loading...</p>
+  return (
+    <MantineProvider>
+      <p>Loading...</p>
+    </MantineProvider>
+  )
 }
