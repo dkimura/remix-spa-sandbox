@@ -16,14 +16,14 @@
     "@mantine/notifications": "7.8.1",
     "@remix-run/node": "2.9.1",
     "@remix-run/react": "2.9.1",
-    "react": "18.3.0",
-    "react-dom": "18.3.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
     "@remix-run/dev": "2.9.1",
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
+    "@types/react": "18.3.0",
+    "@types/react-dom": "18.3.0",
     "concurrently": "8.2.2",
     "lefthook": "1.6.10",
     "remix-routes": "1.7.3",
