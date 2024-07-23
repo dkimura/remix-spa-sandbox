@@ -27,7 +27,7 @@
     "concurrently": "8.2.2",
     "lefthook": "1.7.5",
     "remix-routes": "1.7.6",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "vite": "5.3.4",
     "vite-tsconfig-paths": "4.3.2"
   },
