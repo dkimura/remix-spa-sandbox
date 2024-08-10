@@ -49,8 +49,8 @@ importers:
         specifier: 1.7.12
         version: 1.7.12
       remix-routes:
-        specifier: 1.7.6
-        version: 1.7.6
+        specifier: 1.7.7
+        version: 1.7.7
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -2434,8 +2434,8 @@ packages:
   remark-rehype@10.1.0:
     resolution: {integrity: sha512-EFmR5zppdBp0WQeDVZ/b66CWJipB2q2VLNFMabzDSGR66Z2fQii83G5gTBbgGEnEEA0QRussvrFHxk1HWGJskw==}
 
-  remix-routes@1.7.6:
-    resolution: {integrity: sha512-Ubcx3WLoraVAd4nGsJyTkbgTMD//ZTHziCY9HsBk1z9k4LPGIGWIsfR9yzZ1djImlODwhk4R+SziYXRmTYHn6w==}
+  remix-routes@1.7.7:
+    resolution: {integrity: sha512-Cj6PhrLkNHu4Vb+eSCnoFslqKmEtcZcvZkBHhrB2zsyJH+uLKBjETp0o3dR5vj0q+iUgxwnHFdEE1ThmKbWBKw==}
     hasBin: true
 
   require-directory@2.1.1:
@@ -2733,14 +2733,6 @@ packages:
   type-is@1.6.18:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
-
-  typescript-remix-routes-plugin@1.0.1:
-    resolution: {integrity: sha512-8mpVqBKyVd2ruTVUIBV99hOlbFC99FZwVr/bDBXCjS1iW4lPs+QMYXTQjbIrrwS6XkSVRllkUB+ecBK2+zAAGw==}
-
-  typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
 
   typescript@5.5.4:
     resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
@@ -5642,14 +5634,13 @@ snapshots:
       mdast-util-to-hast: 12.3.0
       unified: 10.1.2
 
-  remix-routes@1.7.6:
+  remix-routes@1.7.7:
     dependencies:
       chokidar: 3.6.0
       ejs: 3.1.10
       meow: 9.0.0
       mkdirp: 1.0.4
       slash: 3.0.0
-      typescript-remix-routes-plugin: 1.0.1
 
   require-directory@2.1.1: {}
 
@@ -5952,14 +5943,6 @@ snapshots:
     dependencies:
       media-typer: 0.3.0
       mime-types: 2.1.35
-
-  typescript-remix-routes-plugin@1.0.1:
-    dependencies:
-      resolve: 1.22.8
-      slash: 3.0.0
-      typescript: 4.9.5
-
-  typescript@4.9.5: {}
 
   typescript@5.5.4: {}
 
