@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@mantine/core':
         specifier: 7.13.4
-        version: 7.13.4(@mantine/hooks@7.13.4(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 7.13.4(@mantine/hooks@7.13.5(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mantine/hooks':
-        specifier: 7.13.4
-        version: 7.13.4(react@18.3.1)
+        specifier: 7.13.5
+        version: 7.13.5(react@18.3.1)
       '@mantine/notifications':
         specifier: 7.13.4
-        version: 7.13.4(@mantine/core@7.13.4(@mantine/hooks@7.13.4(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.13.4(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 7.13.4(@mantine/core@7.13.4(@mantine/hooks@7.13.5(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.13.5(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@remix-run/node':
         specifier: 2.13.1
         version: 2.13.1(typescript@5.6.3)
@@ -585,10 +585,10 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@mantine/hooks@7.13.4':
-    resolution: {integrity: sha512-B2QCegQyWlLdenVNaLNK8H9cTAjLW9JKJ3xWg+ShhpjZDHT2hjZz4L0Nt071Z7mPvyAaOwKGM0FyqTcTjdECfg==}
+  '@mantine/hooks@7.13.5':
+    resolution: {integrity: sha512-hxFOQn6NeN7fP37VXZh7z5KxwqA9HYmydivIay0jyQTYA4Falc8Pb4ozSxnyFbXyxzUWcFIQL4xayHRvedgE+Q==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.x || ^19.x
 
   '@mantine/notifications@7.13.4':
     resolution: {integrity: sha512-CKd3tDGDAegkJYJIMHtF0St4hBpBVAujdmtsEin7UYeVq5N0YYe7j2T1Xu7Ry6dfObkuxeig6csxiJyBrZ2bew==}
@@ -3414,10 +3414,10 @@ snapshots:
 
   '@jspm/core@2.1.0': {}
 
-  '@mantine/core@7.13.4(@mantine/hooks@7.13.4(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mantine/core@7.13.4(@mantine/hooks@7.13.5(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@floating-ui/react': 0.26.27(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@mantine/hooks': 7.13.4(react@18.3.1)
+      '@mantine/hooks': 7.13.5(react@18.3.1)
       clsx: 2.1.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -3428,14 +3428,14 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/hooks@7.13.4(react@18.3.1)':
+  '@mantine/hooks@7.13.5(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
-  '@mantine/notifications@7.13.4(@mantine/core@7.13.4(@mantine/hooks@7.13.4(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.13.4(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mantine/notifications@7.13.4(@mantine/core@7.13.4(@mantine/hooks@7.13.5(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mantine/hooks@7.13.5(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@mantine/core': 7.13.4(@mantine/hooks@7.13.4(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@mantine/hooks': 7.13.4(react@18.3.1)
+      '@mantine/core': 7.13.4(@mantine/hooks@7.13.5(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@mantine/hooks': 7.13.5(react@18.3.1)
       '@mantine/store': 7.13.4(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
