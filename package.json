@@ -22,8 +22,8 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@remix-run/dev": "2.15.1",
-    "@types/react": "18.3.15",
-    "@types/react-dom": "18.3.4",
+    "@types/react": "18.3.16",
+    "@types/react-dom": "18.3.5",
     "concurrently": "9.1.0",
     "lefthook": "1.9.0",
     "remix-routes": "1.7.7",
