@@ -14,14 +14,14 @@
     "@mantine/core": "7.16.2",
     "@mantine/hooks": "7.16.2",
     "@mantine/notifications": "7.16.2",
-    "@remix-run/node": "2.15.2",
-    "@remix-run/react": "2.15.2",
+    "@remix-run/node": "2.15.3",
+    "@remix-run/react": "2.15.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@remix-run/dev": "2.15.2",
+    "@remix-run/dev": "2.15.3",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
     "concurrently": "9.1.2",
