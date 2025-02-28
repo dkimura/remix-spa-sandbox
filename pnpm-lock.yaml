@@ -19,10 +19,10 @@ importers:
         version: 7.17.0(@mantine/core@7.17.0(@mantine/hooks@7.17.0(react@19.0.0))(@types/react@18.3.18)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mantine/hooks@7.17.0(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@remix-run/node':
         specifier: 2.16.0
-        version: 2.16.0(typescript@5.7.3)
+        version: 2.16.0(typescript@5.8.2)
       '@remix-run/react':
         specifier: 2.16.0
-        version: 2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
+        version: 2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -35,7 +35,7 @@ importers:
         version: 1.9.4
       '@remix-run/dev':
         specifier: 2.16.0
-        version: 2.16.0(@remix-run/react@2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(@types/node@22.13.5)(typescript@5.7.3)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0))(yaml@2.7.0)
+        version: 2.16.0(@remix-run/react@2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2))(@types/node@22.13.5)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0))(yaml@2.7.0)
       '@types/react':
         specifier: 18.3.18
         version: 18.3.18
@@ -52,14 +52,14 @@ importers:
         specifier: 1.7.7
         version: 1.7.7
       typescript:
-        specifier: 5.7.3
-        version: 5.7.3
+        specifier: 5.8.2
+        version: 5.8.2
       vite:
         specifier: 6.2.0
         version: 6.2.0(@types/node@22.13.5)(yaml@2.7.0)
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.7.3)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0))
+        version: 5.1.4(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0))
 
 packages:
 
@@ -2915,8 +2915,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -3829,7 +3829,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@remix-run/dev@2.16.0(@remix-run/react@2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(@types/node@22.13.5)(typescript@5.7.3)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0))(yaml@2.7.0)':
+  '@remix-run/dev@2.16.0(@remix-run/react@2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2))(@types/node@22.13.5)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@babel/core': 7.26.9
       '@babel/generator': 7.26.9
@@ -3841,10 +3841,10 @@ snapshots:
       '@babel/types': 7.26.9
       '@mdx-js/mdx': 2.3.0
       '@npmcli/package-json': 4.0.1
-      '@remix-run/node': 2.16.0(typescript@5.7.3)
-      '@remix-run/react': 2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
+      '@remix-run/node': 2.16.0(typescript@5.8.2)
+      '@remix-run/react': 2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)
       '@remix-run/router': 1.23.0
-      '@remix-run/server-runtime': 2.16.0(typescript@5.7.3)
+      '@remix-run/server-runtime': 2.16.0(typescript@5.8.2)
       '@types/mdx': 2.0.13
       '@vanilla-extract/integration': 6.5.0(@types/node@22.13.5)
       arg: 5.0.2
@@ -3885,11 +3885,11 @@ snapshots:
       set-cookie-parser: 2.7.1
       tar-fs: 2.1.2
       tsconfig-paths: 4.2.0
-      valibot: 0.41.0(typescript@5.7.3)
+      valibot: 0.41.0(typescript@5.8.2)
       vite-node: 3.0.0-beta.2(@types/node@22.13.5)(yaml@2.7.0)
       ws: 7.5.10
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
       vite: 6.2.0(@types/node@22.13.5)(yaml@2.7.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -3910,9 +3910,9 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@remix-run/node@2.16.0(typescript@5.7.3)':
+  '@remix-run/node@2.16.0(typescript@5.8.2)':
     dependencies:
-      '@remix-run/server-runtime': 2.16.0(typescript@5.7.3)
+      '@remix-run/server-runtime': 2.16.0(typescript@5.8.2)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -3920,23 +3920,23 @@ snapshots:
       stream-slice: 0.1.2
       undici: 6.21.1
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
 
-  '@remix-run/react@2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)':
+  '@remix-run/react@2.16.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.8.2)':
     dependencies:
       '@remix-run/router': 1.23.0
-      '@remix-run/server-runtime': 2.16.0(typescript@5.7.3)
+      '@remix-run/server-runtime': 2.16.0(typescript@5.8.2)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-router: 6.30.0(react@19.0.0)
       react-router-dom: 6.30.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       turbo-stream: 2.4.0
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
 
   '@remix-run/router@1.23.0': {}
 
-  '@remix-run/server-runtime@2.16.0(typescript@5.7.3)':
+  '@remix-run/server-runtime@2.16.0(typescript@5.8.2)':
     dependencies:
       '@remix-run/router': 1.23.0
       '@types/cookie': 0.6.0
@@ -3946,7 +3946,7 @@ snapshots:
       source-map: 0.7.4
       turbo-stream: 2.4.0
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
 
   '@remix-run/web-blob@3.1.0':
     dependencies:
@@ -6288,9 +6288,9 @@ snapshots:
 
   trough@2.2.0: {}
 
-  tsconfck@3.1.5(typescript@5.7.3):
+  tsconfck@3.1.5(typescript@5.8.2):
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
 
   tsconfig-paths@4.2.0:
     dependencies:
@@ -6315,7 +6315,7 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  typescript@5.7.3: {}
+  typescript@5.8.2: {}
 
   ufo@1.5.4: {}
 
@@ -6438,9 +6438,9 @@ snapshots:
       kleur: 4.1.5
       sade: 1.8.1
 
-  valibot@0.41.0(typescript@5.7.3):
+  valibot@0.41.0(typescript@5.8.2):
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
 
   validate-npm-package-license@3.0.4:
     dependencies:
@@ -6502,11 +6502,11 @@ snapshots:
       - tsx
       - yaml
 
-  vite-tsconfig-paths@5.1.4(typescript@5.7.3)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.5)(yaml@2.7.0)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
-      tsconfck: 3.1.5(typescript@5.7.3)
+      tsconfck: 3.1.5(typescript@5.8.2)
     optionalDependencies:
       vite: 6.2.0(@types/node@22.13.5)(yaml@2.7.0)
     transitivePeerDependencies:
