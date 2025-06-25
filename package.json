@@ -11,9 +11,9 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@mantine/core": "8.1.1",
-    "@mantine/hooks": "8.1.1",
-    "@mantine/notifications": "8.1.1",
+    "@mantine/core": "8.1.2",
+    "@mantine/hooks": "8.1.2",
+    "@mantine/notifications": "8.1.2",
     "@remix-run/node": "2.16.8",
     "@remix-run/react": "2.16.8",
     "react": "19.1.0",
