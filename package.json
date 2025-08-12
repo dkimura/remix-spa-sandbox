@@ -28,7 +28,7 @@
     "lefthook": "1.12.3",
     "remix-routes": "1.7.7",
     "typescript": "5.9.2",
-    "vite": "7.1.1",
+    "vite": "7.1.2",
     "vite-tsconfig-paths": "5.1.4"
   },
   "engines": {
