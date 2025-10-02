@@ -20,7 +20,7 @@
     "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.2.5",
     "@remix-run/dev": "2.17.1",
     "@types/react": "18.3.25",
     "@types/react-dom": "18.3.7",
