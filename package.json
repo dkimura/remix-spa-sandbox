@@ -32,7 +32,7 @@
     "vite-tsconfig-paths": "6.1.1"
   },
   "engines": {
-    "node": "24.14.1"
+    "node": "24.15.0"
   },
   "packageManager": "pnpm@10.33.0"
 }
