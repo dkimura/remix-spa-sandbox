@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@mantine/core':
-        specifier: 9.1.1
-        version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        specifier: 9.2.0
+        version: 9.2.0(@mantine/hooks@9.2.0(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@mantine/hooks':
-        specifier: 9.1.1
-        version: 9.1.1(react@19.2.6)
+        specifier: 9.2.0
+        version: 9.2.0(react@19.2.6)
       '@mantine/notifications':
-        specifier: 9.1.1
-        version: 9.1.1(@mantine/core@9.1.1(@mantine/hooks@9.1.1(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@mantine/hooks@9.1.1(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        specifier: 9.2.0
+        version: 9.2.0(@mantine/core@9.2.0(@mantine/hooks@9.2.0(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@mantine/hooks@9.2.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       '@remix-run/node':
         specifier: 2.17.4
         version: 2.17.4(typescript@6.0.3)
@@ -741,28 +741,28 @@ packages:
   '@jspm/core@2.1.0':
     resolution: {integrity: sha512-3sRl+pkyFY/kLmHl0cgHiFp2xEqErA8N3ECjMs7serSUBmoJ70lBa0PG5t0IM6WJgdZNyyI0R8YFfi5wM8+mzg==}
 
-  '@mantine/core@9.1.1':
-    resolution: {integrity: sha512-vClOZdCeZ4oLYuA/3jAOgKGQ6dXbF6ZkzpYz09Gied9nZpB7HcQeb3dcMh8UPBE4f+EM7KlYWk6dch7GoASeaA==}
+  '@mantine/core@9.2.0':
+    resolution: {integrity: sha512-r1gtKzHnZYdhskPf/MByGjSo2FmtpVltSmE26ZsPM45hHxqUr+L39P3740oha9b6nafwzQ0dJ+HLm/l43E6TDw==}
     peerDependencies:
-      '@mantine/hooks': 9.1.1
+      '@mantine/hooks': 9.2.0
       react: ^19.2.0
       react-dom: ^19.2.0
 
-  '@mantine/hooks@9.1.1':
-    resolution: {integrity: sha512-tTJK73nGFyy1v214TLdvBq0be7QCoc6osfbXVuJgOH3YG85lWk9Mvvor6k+w6hC6HXSqKMqLKePyiGm83xGcMg==}
+  '@mantine/hooks@9.2.0':
+    resolution: {integrity: sha512-xSt33F84+zgESHqyhJQvVTvCGN1GyQUuHIvh1cAZavXK7Uwy0Fqckno/5OP29ZNJUgu+H/jYuSluu100tMUeAQ==}
     peerDependencies:
       react: ^19.2.0
 
-  '@mantine/notifications@9.1.1':
-    resolution: {integrity: sha512-ZfcEMMDp0BQ+yKmVp8ifPXLKej8pv9TcaRnmy2CZ07USD61E9LH5ClRAP/hxQuCyf/qLb5BPHsI7+f3K8uhj4Q==}
+  '@mantine/notifications@9.2.0':
+    resolution: {integrity: sha512-No2JmS54kI4dXPzBmMnnLe3A0hj22k27UnYHqEtSoXrvLhZxppcP/YD7a3m3bhemqfvQxS5huuWz2gN+1vngFw==}
     peerDependencies:
-      '@mantine/core': 9.1.1
-      '@mantine/hooks': 9.1.1
+      '@mantine/core': 9.2.0
+      '@mantine/hooks': 9.2.0
       react: ^19.2.0
       react-dom: ^19.2.0
 
-  '@mantine/store@9.1.1':
-    resolution: {integrity: sha512-kbxEU8wVGbobHlmQmk0lu9M+xCILKjuAPcMAshgzPznGLfXeE9zrB0gNT2cbk11Ik8dlV9J6Vsn9cuACyOSpfQ==}
+  '@mantine/store@9.2.0':
+    resolution: {integrity: sha512-nde665E9R1/9TxsTDOipjlhkfoQS+8YBTsfuHihcvGFZrBk0xDY1msxAhx8yqS3L7fugYFKDGpSJrt03ImRyng==}
     peerDependencies:
       react: ^19.2.0
 
@@ -4043,10 +4043,10 @@ snapshots:
 
   '@jspm/core@2.1.0': {}
 
-  '@mantine/core@9.1.1(@mantine/hooks@9.1.1(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@mantine/core@9.2.0(@mantine/hooks@9.2.0(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
     dependencies:
       '@floating-ui/react': 0.27.19(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
-      '@mantine/hooks': 9.1.1(react@19.2.6)
+      '@mantine/hooks': 9.2.0(react@19.2.6)
       clsx: 2.1.1
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
@@ -4056,20 +4056,20 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/hooks@9.1.1(react@19.2.6)':
+  '@mantine/hooks@9.2.0(react@19.2.6)':
     dependencies:
       react: 19.2.6
 
-  '@mantine/notifications@9.1.1(@mantine/core@9.1.1(@mantine/hooks@9.1.1(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@mantine/hooks@9.1.1(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@mantine/notifications@9.2.0(@mantine/core@9.2.0(@mantine/hooks@9.2.0(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@mantine/hooks@9.2.0(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
     dependencies:
-      '@mantine/core': 9.1.1(@mantine/hooks@9.1.1(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
-      '@mantine/hooks': 9.1.1(react@19.2.6)
-      '@mantine/store': 9.1.1(react@19.2.6)
+      '@mantine/core': 9.2.0(@mantine/hooks@9.2.0(react@19.2.6))(@types/react@18.3.28)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@mantine/hooks': 9.2.0(react@19.2.6)
+      '@mantine/store': 9.2.0(react@19.2.6)
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
       react-transition-group: 4.4.5(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
 
-  '@mantine/store@9.1.1(react@19.2.6)':
+  '@mantine/store@9.2.0(react@19.2.6)':
     dependencies:
       react: 19.2.6
 
