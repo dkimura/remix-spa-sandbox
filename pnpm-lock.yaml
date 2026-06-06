@@ -9,20 +9,20 @@ importers:
   .:
     dependencies:
       '@mantine/core':
-        specifier: 9.2.2
-        version: 9.2.2(@mantine/hooks@9.2.2(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: 9.3.0
+        version: 9.3.0(@mantine/hooks@9.3.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@mantine/hooks':
-        specifier: 9.2.2
-        version: 9.2.2(react@19.2.7)
+        specifier: 9.3.0
+        version: 9.3.0(react@19.2.7)
       '@mantine/notifications':
-        specifier: 9.2.2
-        version: 9.2.2(@mantine/core@9.2.2(@mantine/hooks@9.2.2(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(@mantine/hooks@9.2.2(react@19.2.7))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: 9.3.0
+        version: 9.3.0(@mantine/core@9.3.0(@mantine/hooks@9.3.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(@mantine/hooks@9.3.0(react@19.2.7))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@remix-run/node':
-        specifier: 2.17.4
-        version: 2.17.4(typescript@6.0.3)
+        specifier: 2.17.5
+        version: 2.17.5(typescript@6.0.3)
       '@remix-run/react':
-        specifier: 2.17.4
-        version: 2.17.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3)
+        specifier: 2.17.5
+        version: 2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3)
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -34,8 +34,8 @@ importers:
         specifier: 2.4.16
         version: 2.4.16
       '@remix-run/dev':
-        specifier: 2.17.4
-        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3))(@types/node@25.9.1)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.16(@types/node@25.9.1)(esbuild@0.17.6)(yaml@2.9.0))(yaml@2.9.0)
+        specifier: 2.17.5
+        version: 2.17.5(@remix-run/react@2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3))(@types/node@25.9.1)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.16(@types/node@25.9.1)(esbuild@0.17.6)(yaml@2.9.0))(yaml@2.9.0)
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
@@ -741,28 +741,28 @@ packages:
   '@jspm/core@2.1.0':
     resolution: {integrity: sha512-3sRl+pkyFY/kLmHl0cgHiFp2xEqErA8N3ECjMs7serSUBmoJ70lBa0PG5t0IM6WJgdZNyyI0R8YFfi5wM8+mzg==}
 
-  '@mantine/core@9.2.2':
-    resolution: {integrity: sha512-j4d7dwKkrYPP9Lb7ut1u0OodwmosIaKK4azK4GMoTKq1+7TKRrJPxB1vkDjkbOcd+jbUt0qn6EkJdsSMKVcIIw==}
+  '@mantine/core@9.3.0':
+    resolution: {integrity: sha512-mHVCm61YVW9ipy9eHiKMqsRUm3TkOErbdw7zHs0HRw5g403nf7tSTqNGvaYE+aX1Py874qMkrUzeQfj4bjiiBA==}
     peerDependencies:
-      '@mantine/hooks': 9.2.2
+      '@mantine/hooks': 9.3.0
       react: ^19.2.0
       react-dom: ^19.2.0
 
-  '@mantine/hooks@9.2.2':
-    resolution: {integrity: sha512-E0eKEMv47Xo+QVKYj2buzLJURcO/Qfb12EvM4mjKlXPuTqYhl+Fvg7Sg+xHmta8iTtBvo/5G+iNeqc4pfs8eaA==}
+  '@mantine/hooks@9.3.0':
+    resolution: {integrity: sha512-QoSr9WI4WsKWrM3qFYYizHUn3+n+CVcFMYe4sdlnmFPStvs6BacPODKJSbFlYl73Z20t82JIy0eKqt4noHQI2g==}
     peerDependencies:
       react: ^19.2.0
 
-  '@mantine/notifications@9.2.2':
-    resolution: {integrity: sha512-7pNVA1wy+QJmzQiXXP65o9pzg/NLpLNU9wE0nLU2chjpvuqvfu1KP1lOB3097rebLxYmmrE25Dn4hxfSrHwCmw==}
+  '@mantine/notifications@9.3.0':
+    resolution: {integrity: sha512-ikkgAVGccbyU/WLru6b2cZsVqky8iEvduCPAPBnSPd5UQBEjcZr11F0LFUGAHwBM94InDzdf4HQiSBMG2lXRRw==}
     peerDependencies:
-      '@mantine/core': 9.2.2
-      '@mantine/hooks': 9.2.2
+      '@mantine/core': 9.3.0
+      '@mantine/hooks': 9.3.0
       react: ^19.2.0
       react-dom: ^19.2.0
 
-  '@mantine/store@9.2.2':
-    resolution: {integrity: sha512-ZzS1yERapPURUG1vs7G+lD+oc8AZKissP1eUzefpyOAgEoEJXjOckc5/voiik3dcc/WP4AE9GQsT3Z4cS27E/A==}
+  '@mantine/store@9.3.0':
+    resolution: {integrity: sha512-hTSXBRCPiQeVcoYRTAOtlSPFHcD6Iexf1Sbhjk/Ne5k+LUdeYAaDOZHdyljepO0+8HVavR31ZvkNCQXuoV793w==}
     peerDependencies:
       react: ^19.2.0
 
@@ -798,8 +798,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@remix-run/dev@2.17.4':
-    resolution: {integrity: sha512-El7r5W6ErX9KIy27+urbc4SIZnIlVDgTOUqzA7Zbv7caKYrsvgj/Z3i/LPy4VNfv0G1EdawPOrygJgIKT4r2FA==}
+  '@remix-run/dev@2.17.5':
+    resolution: {integrity: sha512-yEDrKcIICHnaJdUOdBAXQTNXoehB0J3FBcZr4CnK6Alic6cVJGGBGMtJdIO7DUwNySwoYvkUTS3qnXuk2zGYZA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -818,8 +818,8 @@ packages:
       wrangler:
         optional: true
 
-  '@remix-run/node@2.17.4':
-    resolution: {integrity: sha512-9A29JaYiGHDEmaiQuD1IlO/TrQxnnkj98GpytihU+Nz6yTt6RwzzyMMqTAoasRd1dPD4OeSaSqbwkcim/eE76Q==}
+  '@remix-run/node@2.17.5':
+    resolution: {integrity: sha512-CwOUCDJqh9o8r/n5N1l+vz4Jh7DFU52/jo7MN56+OL9gM+14aQKdq1aLAh+4V6GuI/qtki9PPk02GmULimmDkw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -827,8 +827,8 @@ packages:
       typescript:
         optional: true
 
-  '@remix-run/react@2.17.4':
-    resolution: {integrity: sha512-MeXHacIBoohr9jzec5j/Rmk57xk34korkPDDb0OPHgkdvh20lO5fJoSAcnZfjTIOH+Vsq1ZRQlmvG5PRQ/64Sw==}
+  '@remix-run/react@2.17.5':
+    resolution: {integrity: sha512-ya6OQ+T9yS4u8www75f4dH11NIYeK8K0eMrei+q4BTp6NrY2lqLTBfHqVlc23ZsUnWqdLUII4hzySVv+AJbTWA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0.0
@@ -838,12 +838,12 @@ packages:
       typescript:
         optional: true
 
-  '@remix-run/router@1.23.2':
-    resolution: {integrity: sha512-Ic6m2U/rMjTkhERIa/0ZtXJP17QUi2CbWE7cqx4J58M8aA3QTfW+2UlQ4psvTX9IO1RfNVhK3pcpdjej7L+t2w==}
+  '@remix-run/router@1.23.3':
+    resolution: {integrity: sha512-4An71tdz9X8+3sI4Qqqd2LWd9vS39J7sqd9EU4Scw7TJE/qB10Flv/UuqbPVgfQV9XoK8Np6jNquZitnZq5i+Q==}
     engines: {node: '>=14.0.0'}
 
-  '@remix-run/server-runtime@2.17.4':
-    resolution: {integrity: sha512-oCsFbPuISgh8KpPKsfBChzjcntvTz5L+ggq9VNYWX8RX3yA7OgQpKspRHOSxb05bw7m0Hx+L1KRHXjf3juKX8w==}
+  '@remix-run/server-runtime@2.17.5':
+    resolution: {integrity: sha512-SyJ5n2pQyo4ERGvjjLvL2PpRWBzlC2qzO5KkkOE2ygOiNcgOu9WQnnom9GI8KgsTRCO8JnIeLHFRcmxZnVBjfw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -2801,15 +2801,15 @@ packages:
       '@types/react':
         optional: true
 
-  react-router-dom@6.30.3:
-    resolution: {integrity: sha512-pxPcv1AczD4vso7G4Z3TKcvlxK7g7TNt3/FNGMhfqyntocvYKj+GCatfigGDjbLozC4baguJ0ReCigoDJXb0ag==}
+  react-router-dom@6.30.4:
+    resolution: {integrity: sha512-q4HvNl+mmDdkS0g+MqiBZNteQJCuimWoOyHMy4T/RQLAn9Z29+E91QXRaxOujeMl2HTzRSS0KFPd7lxX3PjV0Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
 
-  react-router@6.30.3:
-    resolution: {integrity: sha512-XRnlbKMTmktBkjCLE8/XcZFlnHvr2Ltdr1eJX4idL55/9BbORzyZEaIkBFDhFGCEWBBItsVrDxwx3gnisMitdw==}
+  react-router@6.30.4:
+    resolution: {integrity: sha512-SVUsDe+DybHM/WmYKIVYhZh1o5Dcuf16yM6WjG02Q9XVFMZIJyHYhwrr6bFBXZkVP6z69kNkMyBCujt8FaFLJA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
@@ -4052,10 +4052,10 @@ snapshots:
 
   '@jspm/core@2.1.0': {}
 
-  '@mantine/core@9.2.2(@mantine/hooks@9.2.2(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@mantine/core@9.3.0(@mantine/hooks@9.3.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@floating-ui/react': 0.27.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
-      '@mantine/hooks': 9.2.2(react@19.2.7)
+      '@mantine/hooks': 9.3.0(react@19.2.7)
       clsx: 2.1.1
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
@@ -4065,20 +4065,20 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/hooks@9.2.2(react@19.2.7)':
+  '@mantine/hooks@9.3.0(react@19.2.7)':
     dependencies:
       react: 19.2.7
 
-  '@mantine/notifications@9.2.2(@mantine/core@9.2.2(@mantine/hooks@9.2.2(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(@mantine/hooks@9.2.2(react@19.2.7))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@mantine/notifications@9.3.0(@mantine/core@9.3.0(@mantine/hooks@9.3.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(@mantine/hooks@9.3.0(react@19.2.7))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
-      '@mantine/core': 9.2.2(@mantine/hooks@9.2.2(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
-      '@mantine/hooks': 9.2.2(react@19.2.7)
-      '@mantine/store': 9.2.2(react@19.2.7)
+      '@mantine/core': 9.3.0(@mantine/hooks@9.3.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      '@mantine/hooks': 9.3.0(react@19.2.7)
+      '@mantine/store': 9.3.0(react@19.2.7)
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
       react-transition-group: 4.4.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
 
-  '@mantine/store@9.2.2(react@19.2.7)':
+  '@mantine/store@9.3.0(react@19.2.7)':
     dependencies:
       react: 19.2.7
 
@@ -4149,7 +4149,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3))(@types/node@25.9.1)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.16(@types/node@25.9.1)(esbuild@0.17.6)(yaml@2.9.0))(yaml@2.9.0)':
+  '@remix-run/dev@2.17.5(@remix-run/react@2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3))(@types/node@25.9.1)(lightningcss@1.32.0)(typescript@6.0.3)(vite@8.0.16(@types/node@25.9.1)(esbuild@0.17.6)(yaml@2.9.0))(yaml@2.9.0)':
     dependencies:
       '@babel/core': 7.29.7
       '@babel/generator': 7.29.7
@@ -4161,10 +4161,10 @@ snapshots:
       '@babel/types': 7.29.7
       '@mdx-js/mdx': 2.3.0
       '@npmcli/package-json': 4.0.1
-      '@remix-run/node': 2.17.4(typescript@6.0.3)
-      '@remix-run/react': 2.17.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3)
-      '@remix-run/router': 1.23.2
-      '@remix-run/server-runtime': 2.17.4(typescript@6.0.3)
+      '@remix-run/node': 2.17.5(typescript@6.0.3)
+      '@remix-run/react': 2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3)
+      '@remix-run/router': 1.23.3
+      '@remix-run/server-runtime': 2.17.5(typescript@6.0.3)
       '@types/mdx': 2.0.13
       '@vanilla-extract/integration': 6.5.0(@types/node@25.9.1)(lightningcss@1.32.0)
       arg: 5.0.2
@@ -4230,9 +4230,9 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@remix-run/node@2.17.4(typescript@6.0.3)':
+  '@remix-run/node@2.17.5(typescript@6.0.3)':
     dependencies:
-      '@remix-run/server-runtime': 2.17.4(typescript@6.0.3)
+      '@remix-run/server-runtime': 2.17.5(typescript@6.0.3)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -4242,23 +4242,23 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  '@remix-run/react@2.17.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3)':
+  '@remix-run/react@2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@6.0.3)':
     dependencies:
-      '@remix-run/router': 1.23.2
-      '@remix-run/server-runtime': 2.17.4(typescript@6.0.3)
+      '@remix-run/router': 1.23.3
+      '@remix-run/server-runtime': 2.17.5(typescript@6.0.3)
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
-      react-router: 6.30.3(react@19.2.7)
-      react-router-dom: 6.30.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      react-router: 6.30.4(react@19.2.7)
+      react-router-dom: 6.30.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       turbo-stream: 2.4.1
     optionalDependencies:
       typescript: 6.0.3
 
-  '@remix-run/router@1.23.2': {}
+  '@remix-run/router@1.23.3': {}
 
-  '@remix-run/server-runtime@2.17.4(typescript@6.0.3)':
+  '@remix-run/server-runtime@2.17.5(typescript@6.0.3)':
     dependencies:
-      '@remix-run/router': 1.23.2
+      '@remix-run/router': 1.23.3
       '@types/cookie': 0.6.0
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.7.2
@@ -6325,16 +6325,16 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.2.17
 
-  react-router-dom@6.30.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  react-router-dom@6.30.4(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
     dependencies:
-      '@remix-run/router': 1.23.2
+      '@remix-run/router': 1.23.3
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
-      react-router: 6.30.3(react@19.2.7)
+      react-router: 6.30.4(react@19.2.7)
 
-  react-router@6.30.3(react@19.2.7):
+  react-router@6.30.4(react@19.2.7):
     dependencies:
-      '@remix-run/router': 1.23.2
+      '@remix-run/router': 1.23.3
       react: 19.2.7
 
   react-style-singleton@2.2.3(@types/react@19.2.17)(react@19.2.7):
