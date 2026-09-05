@@ -25,7 +25,7 @@
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.7",
     "concurrently": "10.0.5",
-    "lefthook": "2.1.10",
+    "lefthook": "2.1.12",
     "remix-routes": "1.7.7",
     "typescript": "7.0.2",
     "vite": "8.2.2",
