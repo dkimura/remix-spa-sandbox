@@ -193,7 +193,7 @@ importers:
         version: 2.5.15
       '@remix-run/dev':
         specifier: 2.17.5
-        version: 2.17.5(@remix-run/react@2.17.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@7.0.2))(@types/node@26.6.5)(lightningcss@1.33.0)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1))(yaml@2.9.1)
+        version: 2.17.5(@remix-run/react@2.17.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@7.0.2))(@types/node@26.6.5)(lightningcss@1.33.0)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1))(yaml@2.9.1)
       '@types/react':
         specifier: 19.3.0
         version: 19.3.0
@@ -213,11 +213,11 @@ importers:
         specifier: 7.0.2
         version: 7.0.2
       vite:
-        specifier: 8.3.4
-        version: 8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)
+        specifier: 8.3.5
+        version: 8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)
       vite-tsconfig-paths:
         specifier: 6.1.1
-        version: 6.1.1(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1))
+        version: 6.1.1(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1))
 
 packages:
 
@@ -3675,13 +3675,13 @@ packages:
       yaml:
         optional: true
 
-  vite@8.3.4:
-    resolution: {integrity: sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==}
+  vite@8.3.5:
+    resolution: {integrity: sha512-z1YpjieJ9g0ebTmQpLBv/oq9E3F9EIlOe+7LahW8SrE3LTiG3udBRUXQOlYXP9b+IC2q2phHeVxj9xGlw34OEQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
       '@types/node': ^20.19.0 || >=22.12.0
-      '@vitejs/devtools': ^0.7.1
+      '@vitejs/devtools': ^0.7.1 || ^0.8.0
       esbuild: ^0.27.0 || ^0.28.0
       jiti: '>=1.21.0'
       less: ^4.0.0
@@ -4400,7 +4400,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@remix-run/dev@2.17.5(@remix-run/react@2.17.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@7.0.2))(@types/node@26.6.5)(lightningcss@1.33.0)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1))(yaml@2.9.1)':
+  '@remix-run/dev@2.17.5(@remix-run/react@2.17.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@7.0.2))(@types/node@26.6.5)(lightningcss@1.33.0)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1))(yaml@2.9.1)':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@babel/generator': 7.29.8
@@ -4461,7 +4461,7 @@ snapshots:
       ws: 7.5.13
     optionalDependencies:
       typescript: 7.0.2
-      vite: 8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7298,12 +7298,12 @@ snapshots:
       - tsx
       - yaml
 
-  vite-tsconfig-paths@6.1.1(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)):
+  vite-tsconfig-paths@6.1.1(supports-color@10.2.2)(typescript@7.0.2)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)):
     dependencies:
       debug: 4.4.3(supports-color@10.2.2)
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@7.0.2)
-      vite: 8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -7332,7 +7332,7 @@ snapshots:
       lightningcss: 1.33.0
       yaml: 2.9.1
 
-  vite@8.3.4(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1):
+  vite@8.3.5(@types/node@26.6.5)(esbuild@0.17.6)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
